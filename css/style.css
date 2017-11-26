@@ -1,0 +1,87 @@
+html, body {
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: #303F9F;
+  color: white !important;
+}
+
+#buzzer-physical-web {
+  max-width: 500px;
+  max-height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buzzer-physical-web .box1 {
+  margin-top: 15%;
+  margin-bottom: 20%;
+}
+
+#buzzer-physical-web .box2 {
+  margin-bottom: 20%;'
+}
+
+#buzzer-physical-web .box3 {
+  
+}
+
+#buzzer-button {
+  height: 150px;
+  width: 150px;
+  background-color: #FF5252;
+  margin-left: 50%;
+  position: relative;
+  right: 75px;
+}
+
+#buzzer-button span {
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 48px;
+}
+
+#buzzer-physical-web h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+#buzzer-physical-web h2 {
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 0.045em;
+  margin-top: 16px;
+  text-align: center;
+}
+
+#buzzer-physical-web h3 {
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#buzzer-physical-web .switch {
+  margin-left: 50%;
+  position: relative;
+  right: 54px;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #FF5252 !important;
+}
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #FF5252 !important;
+}
+
+
+
