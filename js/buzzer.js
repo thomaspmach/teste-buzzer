@@ -16,9 +16,8 @@
 
     connect(){
       return navigator.bluetooth.requestDevice({
-        filters:[{
-          name: "Buzzer",
-        }]
+        filters:[{name: "Buzzer",}],
+        optionalServices: [this.buzzerServiceUuid]
       }).then(device => {
         this.device = device
         console.log(device)
